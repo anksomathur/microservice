@@ -1,0 +1,39 @@
+spring:
+  application:
+    name: zuul-gateway
+  cloud:
+    config:
+      uri: http://localhost:8888
+      fail-fast: true
+      password: 1234
+      username: user
+
+
+
+############################################################################
+#Spring properties
+#Server Port
+#server:
+#   port: 8011
+#microservice name
+#spring:
+#  application:
+#        name: zuul
+          
+          
+#Eureka Discovery Server 
+#eureka: 
+#  client:
+#    fetchRegistry: true
+#    registerWithEureka: true
+#    serviceUrl:
+#       defaultZone:  http://localhost:1111/eureka/
+       
+       
+#zuul:  
+# routes:
+#    account:  
+#     path: /account/**
+#     service-id: ACCOUNTS-WEB
+   
+
