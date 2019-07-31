@@ -1,0 +1,5 @@
+server:
+  port: 1111 #the default port used for eureka servers
+  
+  
+#server.port=1111  

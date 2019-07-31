@@ -1,0 +1,14 @@
+#Server Port
+server:
+   port: 8011
+   
+   
+   
+zuul:  
+  routes:
+    account:  
+     path: /account/**
+     service-id: ACCOUNTS-WEB 
+     cart:
+      path: /cart/**
+      service-id:   
